@@ -34,16 +34,20 @@
         <div class="col bg-secondary">sutun-4</div>
       </div>
     </div>
+    <!-- ? Sutunların kaplayacağı alanı belirtmek için col-x şeklinde bir atama yapılabilir. -->
+
+    <!-- ** ızgaraların mevcut alanda nasıl hizalanacağını belirlemek için justify-content sınıfı kullanılır. Bu konuda ek açıklama için 
+     ! https://getbootstrap.com/docs/5.0/utilities/flex/#justify-content -->
 
     <div class="container-fluid mt-4">
-      <div class="row">
+      <div class="row justify-content-between">
         <div class="col-6 bg-primary">AMS-1</div>
         <div class="col-4 bg-secondary">AMS-2</div>
       </div>
-      <div class="row">
-        <div class="col-2 bg-danger">RG-1</div>
-        <div class="col-3 bg-success">RG-2</div>
-        <div class="col-7 bg-info">RG-3</div>
+      <div class="row justify-content-around">
+        <div class="col-1 bg-danger">RG-1</div>
+        <div class="col-2 bg-success">RG-2</div>
+        <div class="col-5 bg-info">RG-3</div>
       </div>
     </div>
 
